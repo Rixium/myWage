@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="5dp"
+    android:id="@+id/linearLayout1">
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/savedData"
+        android:gravity="center"
+        android:layout_margin="5dp" />
+    <TextView
+        android:text="Month Name"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView6" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/monthName"
+        android:singleLine="true"
+        android:maxLines="1" />
+    <TextView
+        android:text="Image of Rota"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView7" />
+    <ImageView
+        android:src="@android:drawable/ic_menu_gallery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:minHeight="300dp" />
+    <Button
+        android:text="Add Image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/addImage" />
+    <Button
+        android:text="Finish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/addMonth" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/errorBox"
+        android:gravity="center" />
+</LinearLayout>

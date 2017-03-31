@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="5dp"
+    android:id="@+id/linearLayout1">
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="60.0dp"
+        android:id="@+id/hoursWorked"
+        android:gravity="center"
+        android:layout_margin="5dp" />
+    <DatePicker
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/datePicker" />
+    <Button
+        android:text="Add to Calendar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/addToCalendar"
+        android:gravity="center" />
+</LinearLayout>

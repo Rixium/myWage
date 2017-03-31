@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="5dp"
+    android:id="@+id/linearLayout1">
+    <TextView
+        android:text="myWage"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView5"
+        android:textSize="50dp"
+        android:gravity="center"
+        android:fontFamily="Droid Sans"
+        android:layout_margin="5dp" />
+    <Button
+        android:text="ADD MONTH"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/addMonth" />
+    <Button
+        android:text="Delete Data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/deleteButton" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:minWidth="25px"
+        android:minHeight="25px">
+        <LinearLayout
+            android:orientation="vertical"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/linearLayout"
+            android:layout_margin="10dp"
+            android:background="@drawable/border"
+            android:padding="10dp"
+            android:gravity="center" />
+    </ScrollView>
+</LinearLayout>
